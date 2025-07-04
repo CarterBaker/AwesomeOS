@@ -1,56 +1,37 @@
-AwesomeOS
+## 🧩 AwesomeOS: a custom OS prototype
 
-    🚧 WORK IN PROGRESS — Abandoned for Now, but Not Forgotten 🚧
+**Solo-developed systems architecture prototype** This was my attempt at trying to get familiar with assembly to showcase my skills.
+Assembly is a very oold langauge and works different than any other programming langauge. Syntax is different and it requires a vast
+knowledge of bits and byte addresses. Due to this fact it is not widely used these days and because of that chatGPT does not know it
+well enough that I can reliably use Ai to learn assembly fast. Because of this this project was put on hold.
 
-AwesomeOS is (or was intended to be) a completely custom operating system built from the ground up. The original vision was ambitious: to create an OS purely in x86 assembly. However, after a solid week of exploring the low-level trenches, it's clear that assembly is a brutal beast — not ideal for rapid prototyping or sanity retention.
+---
 
-This repository contains the initial structure and groundwork for AwesomeOS, started as an educational experiment in OS development from scratch. The project has been paused indefinitely, but the spirit of AwesomeOS may live on in a more manageable form (read: written in C).
-🚀 Vision (Original Goals)
+## 🔮 Future Plans
+  - Write the bootloader in assembly
+  - Write a kernel in assembly and C
+  - Design a modern UI and wrap it around the kernel
 
-    Bootable OS from scratch (no pre-made kernels)
+---
 
-    Handcrafted assembly code for maximum control
+## 🧠 Developer Notes
 
-    Real-mode bootloader and protected-mode switch
+  While the project was failure and requires more knowledge than I can feasibly accumulate ina  week I did get a feel for assembly in
+  general and learned a lot about operating systems and how they work.
 
-    Minimal shell or text-based interface
+---
 
-    Deep understanding of how hardware and software interact at the lowest level
+## 🛠 Development Info
 
-❌ Why It's Paused
+- **Language:** Assembly
 
-    Learning assembly deeply enough to build an entire OS in one week was too unrealistic
+---
 
-    Assembly is incredibly verbose and unforgiving for quick iteration
+## 🧰 Setup Instructions
 
-    Time constraints and competing priorities made progress slow
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/CarterBaker/RPG_Prototype.git
 
-    Lack of proper debugging tools for such low-level work within the given timeframe
-
-💡 Future Plans
-
-While this version of AwesomeOS has been shelved, the concept isn't dead:
-
-    Reboot the project using C (and maybe some inline assembly)
-
-    Use C for portability, readability, and quicker development
-
-    Possibly target the Multiboot Specification and use GRUB for bootloading
-
-    Modularize kernel features: memory management, file system, basic multitasking, etc.
-    
-
-🧠 Lessons Learned
-
-    Assembly teaches you exactly what your system is doing — but at a high mental cost.
-
-    OSDev is not beginner-friendly, and tooling/debugging at this level is punishing.
-
-    C is likely the better entry point for aspiring kernel developers.
-
-🙏 Thanks
-
-To the OSDev wiki and the broader hobbyist community — you are the last line of sanity when boot sectors go wrong.
-📜 License
-
-MIT License. Use this for educational purposes, or as a reminder that even failed projects can teach you something valuable.
+2. Run the bat file
+    Msys2 and Qemu required
